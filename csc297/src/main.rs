@@ -47,7 +47,7 @@ fn main() {
             process::exit(1);
         });
 
-    // parse api server address
+    // parse api server address.
     let api_addr = matches
         .value_of("api_addr")
         .unwrap()
